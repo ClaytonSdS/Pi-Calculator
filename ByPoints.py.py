@@ -8,8 +8,6 @@ class PiCalculator():
         self.Ni = [] # points in circle
         self.N = [] # all points
         self.iterations = iterations
-        self.count = 0
-
         self.start_iterations()
         self.set_pi()
 
@@ -20,13 +18,15 @@ class PiCalculator():
             self.Ni.append(point)
             self.N.append(point)
         else:
-            self.No.append(point)
             self.N.append(point)
 
     # FUNCTION TO CREATE RANDOM POINTS -> P = (x,y) x <= 1 and y <=1
     def set_point(self):
         return (random.random(), random.random())
 
+    # CALCULATE PI VALUE
+    def set_pi(self):
+        self.pi = len(self.Ni) / len(self.N) * 4
 
     # FUNCTION TO START ITERATIONS
     def start_iterations(self):
@@ -39,7 +39,6 @@ class PiCalculator():
     def plot(self):
         x_Ni = [self.Ni[i][0] for i in range(len(self.Ni))]
         y_Ni = [self.Ni[i][1] for i in range(len(self.Ni))]
-
         fig = plt.figure(figsize=(100,100))
         plt.title(f"N = {len(self.N)}; " + r"$N_{i}$ = " + str(len(self.Ni)) + r"; $π$ = " + str(self.pi), fontsize=30)
         plt.scatter(x_Ni, y_Ni, label="$N_{i}$", color="#323335")
@@ -47,13 +46,9 @@ class PiCalculator():
         plt.xlabel("Radius")
         plt.ylabel("Radius")
         plt.legend(loc="upper right", facecolor="#eeeeee")
-
         plt.savefig(f"pi_plot.jpg", format="jpg", dpi=72)
         plt.close(fig)
 
-
-    def set_pi(self):
-        self.pi = len(self.Ni)/len(self.N) * 4
 
 
 # Example
