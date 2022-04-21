@@ -1,5 +1,5 @@
 # Pi Calculation
-Calculate <img src="https://render.githubusercontent.com/render/math?math={\pi}"> value by a sum of points (<img src="https://render.githubusercontent.com/render/math?math={\frac{N_{i}}{N}}">)
+Calculate <img src="https://render.githubusercontent.com/render/math?math={\pi}"> value by a sum of points (<img src="https://render.githubusercontent.com/render/math?math={{N_{i}}, {N}}">)
 
 # Equations
 <img src="https://render.githubusercontent.com/render/math?math={\Huge \pi \approx 4\frac{N_{i}}{N}}">
