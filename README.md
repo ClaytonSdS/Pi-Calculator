@@ -7,4 +7,5 @@ Calculate <img src="https://render.githubusercontent.com/render/math?math={\pi}"
 # Function Working
 ![me](https://github.com/ClaytonSdS/Pi/blob/main/me.gif)
 
-# Credits
+# Inspiration
+This code was inpired in the Professor Claudio Possani's Lecture ()
