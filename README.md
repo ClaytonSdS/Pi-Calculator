@@ -4,7 +4,10 @@ Calculate <img src="https://render.githubusercontent.com/render/math?math={\pi}"
 # Equations
 <img src="https://render.githubusercontent.com/render/math?math={\Huge \pi \approx 4\frac{N_{i}}{N}}">
 
-# Function Working
+# Example
+* Pi = PiCalculator(10000)
+* Pi_value = Pi.pi
+
 ![me](https://github.com/ClaytonSdS/Pi/blob/main/me.gif)
 
 # Inspiration
