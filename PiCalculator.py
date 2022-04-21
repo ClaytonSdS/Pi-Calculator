@@ -1,4 +1,4 @@
-#Author: Clayton Silva dos Santos
+#Author: Clayton Silva dos Santos (github.com/ClaytonSdS)
 #coding: utf-8
 
 import random
