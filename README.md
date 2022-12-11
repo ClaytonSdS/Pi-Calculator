@@ -11,4 +11,8 @@ Calculate <img src="https://render.githubusercontent.com/render/math?math={\pi}"
 ![example](https://github.com/ClaytonSdS/Pi/blob/main/example.gif)
 
 # Inspiration
-This code was inpired in the Professor Claudio Possani's Lecture (https://youtu.be/UE3NoE_gN6s?t=686)
+This code was inpired in the [Professor Claudio Possani's Lecture](https://youtu.be/UE3NoE_gN6s?t=686)
+
+# Follow for more
+- [LinkedIn](https://www.linkedin.com/in/clayton-santos-579682205/)
+- [GitHub](https://github.com/ClaytonSdS)
